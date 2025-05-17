@@ -32,26 +32,24 @@ voice_assistant/
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
 
-r
-Copy
-Edit
-
 ## ⚙️ Installation
 
 ```bash
+
 git clone <repo-url>
 cd voice_assistant
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-🔑 Configuration
+
+--> Configuration
+
 Replace your Gemini API Key inside voice_functions.py:
 
-python
-Copy
-Edit
 genai.configure(api_key="YOUR_API_KEY")
-🧠 How it Works
+
+--> How it Works:
+
 Click Ask to speak a question.
 
 The bot converts your voice to text.
@@ -66,14 +64,4 @@ Use Clear History to reset conversation.
 
 Use End Conversation to stop the app cleanly.
 
-📷 UI Preview
-<!-- Optional if you have screenshot -->
 
-📌 Future Improvements
-Continuous conversation with context memory
-
-Support for text input
-
-Language selection (multilingual)
-
-Web deployment via Streamlit Cloud
